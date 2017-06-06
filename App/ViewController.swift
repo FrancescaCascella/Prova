@@ -35,11 +35,12 @@ class ViewController: UIViewController {
         var inseriscinome: String = nome.text!
         inseriscinome = inseriscinome.trimmingCharacters(in: CharacterSet.whitespaces).capitalized
         
-        if (inseriscinome == "Luca" || inseriscinome == "Giuseppe" || inseriscinome == "Lelio" || inseriscinome == "Pasquale") {
+        if (inseriscinome == "Paolino" || inseriscinome == "Giuseppe" || inseriscinome == "Lelio" || inseriscinome == "Pasquale") {
             casella.text = "Ciao \(inseriscinome), sei un istruttore fantastico!"
         }
         else {
             casella.text = "Ciao \(inseriscinome) , ti auguro una buona giornata al corso IOS Foundation Program"
+
         }
         nome.resignFirstResponder()
     }
