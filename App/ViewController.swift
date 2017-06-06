@@ -8,6 +8,7 @@
 
 import UIKit
 
+// Classe per il view controller principale
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
